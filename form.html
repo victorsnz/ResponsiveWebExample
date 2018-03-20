@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Mi Formulario</title>
+  <meta name="viewport " content="width=device-width, user-scalable=no, initial-1.0, maximum-scale=1.0, minimun-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <a class="navbar-brand" href="#"></a>
+    <img src="img/avatar.png" alt="" class="rounded-circle" width="50px">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Navegar
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="form.html">Formulario</a>
+            <a class="dropdown-item" href="FAQ.html">FAQ</a>
+          </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="container" style="margin-top:80px">
+    <div class="card">
+      <form class="w-75 mx-auto mt-3 ml-3 mr-3 mb-3">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputName">Nombre</label>
+            <input type="text" class="form-control" id="inputName" placeholder="Nombre">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputLastName">Apelido</label>
+            <input type="text" class="form-control" id="inputLastName" placeholder="Apellido">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Password</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="inputAddress">Dirección</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Calle Falsa 123">
+        </div>
+        <div class="form-group">
+          <label for="inputAddress2">Dirección 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Departamento, Estudio, o Piso">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">Ciudad</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">Estado</label>
+            <select id="inputState" class="form-control">
+        <option selected>Elegir...</option>
+        <option>...</option>
+      </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip">Cod. Postal</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary col-md-3" data-toggle="tooltip" data-placement="top" title="No hago nada...">Sign in</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="container-fluid d-none d-sm-block bg-dark mt-3">
+    <div class="row">
+      <div class="col-md-3 d-flex justify-content-center mb-3">
+        <nav class="nav flex-column">
+          <a class="nav-link active text-white" href="https://twitter.com/">
+          <img src="icons/twitter.png" alt="logo twitter" width="25px"></a>
+        </nav>
+      </div>
+      <div class="col-md-3 d-flex justify-content-center">
+        <nav class="nav flex-column">
+          <a class="nav-link active text-white" href="https://www.facebook.com/">
+          <img src="icons/facebook.png" alt="logo facebook" width="25px"></a>
+        </nav>
+      </div>
+      <div class="col-md-3 d-flex justify-content-center">
+        <nav class="nav flex-column">
+          <a class="nav-link active text-white" href="https://www.instagram.com/">
+          <img src="icons/instagram.png" alt="logo instagram" width="25px"></a>
+        </nav>
+      </div>
+      <div class="col-md-3 d-flex justify-content-center">
+        <nav class="nav flex-column">
+          <a class="nav-link active text-white" href="https://www.linkedin.com">
+          <img src="icons/linkedin.png" alt="logo linkedin" width="25px"></a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

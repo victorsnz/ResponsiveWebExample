@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>FAQ</title>
+  <meta name="viewport " content="width=device-width, user-scalable=no, initial-1.0, maximum-scale=1.0, minimun-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <a class="navbar-brand" href="#"></a>
+    <img src="img/avatar.png" alt="" class="rounded-circle" width="50px">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Navegar
+            </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="form.html">Formulario</a>
+            <a class="dropdown-item" href="FAQ.html">FAQ</a>
+          </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="accordion">
+    <div class="container w-75 mb-5" style="margin-top:100px">
+      <div class="card">
+        <div class="card-header alert-info" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              Pregunta #1
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header alert-info" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Pregunta #2
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header alert-info" id="headingThree">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Pregunta #3
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="container-fluid d-none d-sm-block bg-dark fixed-bottom">
+    <div class="row">
+      <div class="col-md-3 d-flex justify-content-center mb-3">
+        <nav class="nav flex-column">
+          <a class="nav-link active text-white" href="https://twitter.com/" target="_blank">
+          <img src="icons/twitter.png" alt="logo twitter" width="25px"></a>
+        </nav>
+      </div>
+      <div class="col-md-3 d-flex justify-content-center">
+        <nav class="nav flex-column">
+          <a class="nav-link active text-white" href="https://www.facebook.com/" target="_blank">
+          <img src="icons/facebook.png" alt="logo facebook" width="25px"></a>
+        </nav>
+      </div>
+      <div class="col-md-3 d-flex justify-content-center">
+        <nav class="nav flex-column">
+          <a class="nav-link active text-white" href="https://www.instagram.com/" target="_blank">
+          <img src="icons/instagram.png" alt="logo instagram" width="25px"></a>
+        </nav>
+      </div>
+      <div class="col-md-3 d-flex justify-content-center">
+        <nav class="nav flex-column">
+          <a class="nav-link active text-white" href="https://www.linkedin.com" target="_blank">
+          <img src="icons/linkedin.png" alt="logo linkedin" width="25px"></a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <!------------------------------------------->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!------------------------------------------->
+</body>
+
+</html>
